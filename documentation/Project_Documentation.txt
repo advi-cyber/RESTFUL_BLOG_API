@@ -114,4 +114,4 @@ The project demonstrates the implementation of REST principles using Flask and S
 
 ## 10. Author
 
-Internship Project Submission
+Advaita Praveen Kumar Parikkal
