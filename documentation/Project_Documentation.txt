@@ -1,0 +1,117 @@
+# RESTFUL BLOG API
+
+## 1. Project Title
+
+RESTful Blog API
+
+## 2. Objective
+
+To develop a RESTful API for managing blog posts using Flask and SQLite. The API allows users to create, retrieve, update, and delete blog posts.
+
+## 3. Technologies Used
+
+* Python 3
+* Flask
+* SQLite
+* SQLAlchemy
+* Postman
+* GitHub
+
+## 4. Project Structure
+
+RESTFUL_BLOG_API
+
+* app.py
+* requirements.txt
+* README.md
+* screenshots/
+* documentation/
+* instance/blog.db
+
+## 5. Database Design
+
+Table: Blog
+
+Fields:
+
+* id (Integer, Primary Key)
+* title (String)
+* content (Text)
+
+## 6. API Endpoints
+
+### Create Post
+
+Method: POST
+
+Endpoint:
+`/posts`
+
+Description:
+Creates a new blog post.
+
+### Get All Posts
+
+Method: GET
+
+Endpoint:
+`/posts`
+
+Description:
+Retrieves all blog posts.
+
+### Get Single Post
+
+Method: GET
+
+Endpoint:
+`/posts/<id>`
+
+Description:
+Retrieves a specific blog post.
+
+### Update Post
+
+Method: PUT
+
+Endpoint:
+`/posts/<id>`
+
+Description:
+Updates an existing blog post.
+
+### Delete Post
+
+Method: DELETE
+
+Endpoint:
+`/posts/<id>`
+
+Description:
+Deletes a blog post.
+
+## 7. Testing
+
+The API was tested using Postman.
+
+Tested Operations:
+
+* Create Post
+* Get All Posts
+* Get Single Post
+* Update Post
+* Delete Post
+
+Screenshots of successful execution are included in the screenshots folder.
+
+## 8. Results
+
+The RESTful Blog API was successfully implemented with complete CRUD functionality. All endpoints were tested successfully using Postman and data was stored using SQLite.
+
+## 9. Conclusion
+
+The project demonstrates the implementation of REST principles using Flask and SQLite. It provides a simple and efficient API for blog management and serves as a foundation for more advanced web applications.
+
+## 10. Author
+
+Internship Project Submission
