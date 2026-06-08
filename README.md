@@ -47,4 +47,4 @@ DELETE /posts/<id>
 
 ## Author
 
-Internship Project
+Advaita Praveen Kumar Parikkal
